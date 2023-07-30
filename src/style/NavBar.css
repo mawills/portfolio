@@ -1,0 +1,37 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  background-color: #b8b8b8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav {
+  height: 54px;
+}
+
+.navbar-links ul {
+  display: flex;
+}
+
+.navbar-links li {
+  display: inline-flex;
+  list-style: none;
+  margin-left: 40px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #e0e0e0;
+}
+
+.navbar-links a.active {
+  font-weight: bold;
+}
+
+/* Mobile Styling */
+@media (max-width: 768px) {
+}
