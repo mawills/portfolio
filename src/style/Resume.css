@@ -1,0 +1,15 @@
+.resume-pdf-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.section h2 {
+  color: rgb(168, 14, 14);
+}
+
+.job-experience-header {
+  display: flex;
+  justify-content: space-between;
+}

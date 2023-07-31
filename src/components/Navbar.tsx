@@ -8,7 +8,7 @@ function NavBar() {
 
   const links = [
     { id: 1, title: "Home", href: "/" },
-    { id: 2, title: "Code", href: "/code" },
+    { id: 2, title: "Resume", href: "/resume" },
     { id: 3, title: "Models", href: "/models" },
     { id: 4, title: "Contact", href: "/contact" },
   ];
