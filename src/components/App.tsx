@@ -1,9 +1,8 @@
 import NavBar from "./Navbar";
-import Home from "./Home";
-import Resume from "./Resume";
-import Models from "./Models";
-import Contact from "./Contact";
-import NoMatch from "./NoMatch";
+import Home from "./HomePage";
+import Resume from "./ResumePage";
+import Contact from "./ContactPage";
+import NoMatch from "./NoMatchPage";
 import { Routes, Route, Outlet } from "react-router-dom";
 import "../style/App.css";
 
@@ -14,7 +13,6 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="resume" element={<Resume />} />
-          <Route path="models" element={<Models />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoMatch />} />
         </Route>

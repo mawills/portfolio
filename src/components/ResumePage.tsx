@@ -1,7 +1,15 @@
+import { useEffect } from "react";
 import pdfIcon from "../images/pdf.png";
 import "../style/Resume.css";
 
-function Resume() {
+const Resume = () => {
+  useEffect(() => {
+    document.title = "Matt Wills | Resume";
+    return () => {
+      document.title = "Matt Wills";
+    };
+  }, []);
+
   return (
     <div className="resume-container">
       <div className="resume-pdf-link">
@@ -165,6 +173,6 @@ function Resume() {
       </div>
     </div>
   );
-}
+};
 
 export default Resume;
